@@ -41,6 +41,7 @@ public class Main {
 
         scanner.close();
     }
+    //This method has better functuonality to implement(Not optimized)
     public static boolean gameOver() {
         boolean gameOver = false;
             if (hamleler[2][0] == 'X'  && hamleler[1][0] == 'X'  && hamleler[0][0] == 'X' ) {
